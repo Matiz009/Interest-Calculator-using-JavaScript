@@ -8,7 +8,7 @@
 
 <body style="background-color: white;">
 
-    <h1 style="text-align: center;color: darkcyan;">SIMPLE Interest Calculator</h1>
+    <h1 style="text-align: center;color: darkcyan; ">SIMPLE Interest Calculator</h1>
     <hr>
 
     <div class="container">
