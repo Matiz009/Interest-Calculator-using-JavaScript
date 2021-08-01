@@ -10,3 +10,5 @@ document.querySelector(".btn").addEventListener("click", calculateInterest); //e
 document.querySelector(".btn").addEventListener("mouseover", function() { //query for mouseover
     document.querySelector(".btn").style.backgroundColor = "red";
 });
+
+location.reload();
