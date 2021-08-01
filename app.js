@@ -4,6 +4,7 @@ function calculateInterest() { //function to calculate interest
     let rate = parseFloat(document.querySelector(('#interestRate')).value);
     let total = (amount * time * rate) / 100;
     document.querySelector(".interest").innerHTML += total;
+	location.reload();
 }
 
 document.querySelector(".btn").addEventListener("click", calculateInterest); //event listener for button
@@ -11,4 +12,3 @@ document.querySelector(".btn").addEventListener("mouseover", function() { //quer
     document.querySelector(".btn").style.backgroundColor = "red";
 });
 
-location.reload();
